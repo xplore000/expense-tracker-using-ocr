@@ -3,8 +3,8 @@ const fs = require('fs');
 
 // Set up AWS S3
 const s3 = new AWS.S3({
-    accessKeyId:"AKIA4MTWH5YULQPPZPL5",
-    secretAccessKey:"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",
+    accessKeyId:"*******************",
+    secretAccessKey:"**********************",
     region:"ap-south-1"
 });
 
