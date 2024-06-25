@@ -29,13 +29,13 @@ Managing expenses can be a cumbersome task, especially when dealing with numerou
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/expense-tracker-frontend.git
+    git clone https://github.com/xplore000/expense-tracker-using-ocr.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd expense-tracker-ocr
+    cd 
     ```
 
 3. Install dependencies:
@@ -78,7 +78,11 @@ Managing expenses can be a cumbersome task, especially when dealing with numerou
 
 ## Contributing
 
-Contributions are welcome! If you have any ideas, suggestions, or bug fixes, feel free to open an issue or submit a pull request.
+This project was developed by the following team members:
+- Abel Alex Jacob: Full Stack Developer
+- Disha M S: Frontend Developer
+
+Contributions are welcome! If you'd like to contribute, please open an issue or submit a pull request with your ideas, suggestions, or bug fixes.
 
 ## License
 
