@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Style the input */
+input[type="file"] {
+    /* Add your styling here */
+  }
+  
+  /* Optionally hide the default file input button */
+
+  
+  /* Style the label if needed */
+  label[for="fileInput"] {
+    /* Add your styling here */
+  }
+  

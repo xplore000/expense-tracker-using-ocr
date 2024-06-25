@@ -1,0 +1,37 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "frontend": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run start \" \" npm run frontend\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.556.0",
+    "@aws-sdk/client-textract": "^3.600.0",
+    "@aws-sdk/credential-providers": "^3.600.0",
+    "aos": "^2.3.4",
+    "aws-sdk": "^2.1606.0",
+    "axios": "^1.7.2",
+    "bcrypt": "^5.1.1",
+    "colors": "^1.4.0",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "fs": "^0.0.1-security",
+    "mongoose": "^8.2.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.13",
+    "react-simple-chatbot": "^0.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
